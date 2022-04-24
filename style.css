@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.reproductors {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.reproductor1,
+.reproductor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.video1,
+.video2 {
+  border: 2px solid green;
+  width: 80%;
+}
+
+.botonera1,
+.botonera2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  border: 2px solid green;
+  padding: 10px;
+}
+
+.botonera1 img,
+.botonera2 img {
+  width: 25px;
+}
+
+.botonera3 {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.botonera3 img {
+  width: 40px;
+}
+
+.repAudio {
+  text-align: center;
+}
+
+.repAudio audio {
+  border: 2px solid green;
+  border-radius: 50px;
+}
+
+.temps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: green;
+  border: 2px solid black;
+  color: white;
+  padding: 5px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+}
